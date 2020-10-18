@@ -1,0 +1,43 @@
+@import "./pages/GlobalStyles/variables";
+
+body {
+  font-family: $font-main;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.banner {
+  margin-top: 109px;
+}
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    margin-top: 49px;
+  }
+}
+
+.banner {
+  background-color: $defaultcolor;
+  background-position: center; background-repeat: no-repeat; background-size: cover;
+  position: relative;
+  min-height: 650px;
+}
+
+.intro {
+  background-image: url("./gfx/banner2.jpg");
+}
+
+.accessories {
+  background-image: url("./gfx/banner_acc.jpg");
+}
+
+.men {
+  background-image: url("./gfx/banner_man.jpg");
+}
+
+.women {
+  background-image: url("./gfx/banner_women.jpg");
+}

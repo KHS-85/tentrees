@@ -1,0 +1,18 @@
+// Global Style
+@import "../GlobalStyles/variables";
+
+// CSS for specifically for this page
+.shop {
+    font-family: $font-main;
+}
+
+.shop h1 {
+    font-size: 48px; font-weight: 600;
+    color: $defaultcolor;
+    padding-bottom: 24px;
+    letter-spacing: -1px;
+}
+
+desc {
+   color: $altcolor;
+}

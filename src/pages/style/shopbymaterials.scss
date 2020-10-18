@@ -1,0 +1,63 @@
+// Global Style
+@import "../GlobalStyles/variables";
+
+// CSS for specifically for this page
+
+.shopm {
+    margin: 0 auto;
+}
+
+.imgTXT1 {
+    position: absolute; top: 30%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px; font-weight: 800;
+    color: white;
+    white-space: nowrap; // prevent's text from wrapping (no line break)
+}
+
+.imgTXT2 {
+    position: absolute; top: 40%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px; font-weight: 500;
+    color: white;
+    white-space: nowrap; // prevent's text from wrapping (no line break)
+}
+
+.imgTXT3 {
+    text-align: center;
+    font-size: 16px; font-weight: 200;
+    color: $defaultcolor;
+}
+
+.shopLink {
+    text-align: center;
+}
+
+.shopLink a{
+    text-decoration: none;
+    border-bottom: 2px solid $defaultcolor;
+    color: $defaultcolor;
+    font-family: $font-alt;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+.shopLink a:hover{
+    // border-bottom: 3px solid $defaultcolor;
+    border: 0px;
+    outline: 3px solid $defaultcolor;
+    outline-offset: -22px;
+    
+}
+
+.image-box1 {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 450px;
+}
+
+.image-box1 img {
+    filter: brightness(70%);
+    max-width: 100%; max-height: auto;
+    display: block;
+}

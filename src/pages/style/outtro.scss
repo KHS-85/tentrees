@@ -1,0 +1,22 @@
+// Global Style
+@import '../GlobalStyles/variables';
+
+// CSS for specifically for this page
+.outtro {
+    background-color: #0A282B;
+    background-image: url("../../gfx/bgblack.png");
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  hr {
+    height:4px;
+    width: 400px;
+    border-width:0;
+    color:white;
+    background-color:white;
+  }
+  

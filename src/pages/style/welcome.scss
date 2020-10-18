@@ -1,0 +1,30 @@
+// Global Style
+@import "../GlobalStyles/variables";
+
+// CSS for specifically for this page
+.welcome {
+  background-color: $defaultcolor;
+  background-image: url("../../gfx/bgwhite.png");
+  background-position: center; background-repeat: no-repeat; background-size: cover;
+  position: relative;
+  min-height: 500px;
+}
+
+.tree img {
+  height: 60px;
+  width: auto;
+}
+
+.counter {
+  font-family: $font-main;
+  font-size: 80px;
+  letter-spacing: -0.05em;
+}
+
+.counter-text {
+  font-family: $font-alt;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}

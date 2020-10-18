@@ -1,0 +1,51 @@
+// Global Style
+@import "../GlobalStyles/variables";
+
+// CSS for specifically for this page
+.Footer-Element {
+  color: black;
+}
+
+.footer-list {
+  list-style: none;
+  line-height: 2.8rem;
+}
+
+.footer-list a {
+  color: black;
+  // text-decoration: none;
+}
+
+.social {
+  max-height: 32px;
+  width: auto;
+  padding-right: 15px;
+  transition: max-height 0.2s;
+}
+
+#flag-icon {
+  max-height: 32px;
+  width: auto;
+  float: right;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.social:hover {
+  max-height: 36px;
+}
+
+.fake-select {
+  max-width: 200px;
+}
+
+select {
+  cursor: pointer;
+}
+
+.payment img {
+  // added small border to make cards stand more out, since it's white images on a white background
+  border: black 1px solid;
+  border-radius: 5px;
+  margin-right: 10px;
+}

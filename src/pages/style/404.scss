@@ -1,0 +1,10 @@
+// Global Style
+@import "../GlobalStyles/variables";
+
+// CSS for specifically for this page
+#button404 {
+    border-radius: 10px;
+    color: white;
+    background-color: $defaultcolor;
+    padding: 10px;
+}

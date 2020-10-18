@@ -1,0 +1,114 @@
+// Global Style
+@import "../GlobalStyles/variables";
+
+// CSS for specifically for this page
+
+/* Create a sticky/fixed navbar */
+#navbar {
+  font-family: $font-alt;
+  overflow: hidden;
+  background-color: white;
+  padding: 12px 10px; /* padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the navbar size is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+  border-bottom: solid 1px lightgray;
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* Style the logo(s) */
+#navbar .logo {
+  height: 60px;
+  width: auto;
+}
+
+#navbar .logosmall {
+  height: 32px;
+}
+
+/* Links on mouse-over */
+#navbar a:hover {
+  color: grey;
+}
+
+/* Style the active/current link */
+#navbar a.active {
+  color: hotpink;
+}
+
+/* Display some links to the right */
+#navbar-right {
+  float: right;
+  margin: auto;
+}
+
+/* Display some links to the left */
+#navbar-left {
+  float: left;
+  margin: auto;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  #navbar {
+    padding: 12px 10px !important;
+  }
+
+  #navbar .logosmall {
+    display: none;
+  }
+
+  #navbar .logolarge {
+    display: none;
+  }
+
+  .burgernav a {
+    display: none;
+  }
+
+  .burgernav .icon {
+    display: block;
+    color: $defaultcolor;
+    background-color: white;
+    border: none;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+  }
+
+  .burgernav.responsive {
+    position: relative !important;
+  }
+
+  .burgernav.responsive .icon {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    color: hotpink;
+  }
+
+  .burgernav.responsive a {
+    float: none !important;
+    display: block !important;
+    text-align: left !important;
+  }
+}
